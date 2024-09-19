@@ -1,0 +1,74 @@
+.contenedor{
+    background-color: rgb(162, 83, 237);
+    padding: 10px;
+    font-size: 23px;
+    text-align: center;
+    display: grid; /*para activar grid*/
+    grid-gap: 10px; /*para separar cajas*/
+    grid-template-columns:  2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr 1fr;
+    grid-template-areas:"header  header  header"
+                        "nav     nav     nav"
+                        "section1 section2 ads"
+                        "foot    foot    foot"
+                        "rrss1   rrss2   rrss3";
+}
+.contenedor .header{
+    background-color: rgb(227, 219, 79);
+    grid-column: header;
+}
+
+.contenedor .nav{
+    background-color: rgb(79, 227, 89);
+    grid-column: nav;
+}
+
+.contenedor .section1{
+    background-color: rgb(79, 160, 227);
+    grid-column: section1;
+}
+
+.contenedor .section2{
+    background-color: rgb(79, 160, 227);
+    grid-column: section2;
+}
+
+
+.contenedor .ads{
+    background-color: rgb(96, 79, 227);
+    grid-column: ads;
+}
+
+.contenedor .foot{
+    background-color: rgb(227, 79, 195);
+    grid-column: foot;
+}
+
+.contenedor .rrss1{
+    background-color: rgb(146, 17, 68);
+    grid-column: rrss1;
+}
+.contenedor .rrss2{
+    background-color: rgb(146, 17, 68);
+    grid-column: rrss2;
+}
+.contenedor .rrss3{
+    background-color: rgb(146, 17, 68);
+    grid-column: rrss3;
+}
+
+.HP{
+    background-color: azure;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin: 50px 30px 30px 70px ;
+}
+.texto{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    text-align: center;
+
+
+}
